@@ -79,6 +79,10 @@ main{max-width:640px;margin:0 auto;padding:14px 12px 10px}
 .arc span{font-weight:700;text-transform:uppercase;letter-spacing:.5px;font-size:11px}
 .arc input{font:inherit;font-size:12px;padding:3px 6px;border:1px solid #CBCBCB;border-radius:6px;background:#fff;color:#5A5A5A}
 .arc button{font:inherit;font-size:12px;font-weight:700;border:1px solid #CBCBCB;background:#fff;color:#5A5A5A;border-radius:6px;padding:3px 10px;cursor:pointer}
+.lng{display:inline-flex;margin-left:10px;border:1px solid #B5C8DD;border-radius:8px;overflow:hidden;font-size:12px;font-weight:800;vertical-align:middle}
+.lng a,.lng b{padding:3px 9px;text-decoration:none;font-size:12px;font-weight:800;line-height:1.4}
+.lng a{color:#0067AA;background:#fff}
+.lng b{color:#fff;background:#0067AA}
 .sec{font-size:12px;font-weight:700;color:var(--mut);text-transform:uppercase;letter-spacing:.6px;margin:20px 4px 8px}
 .team{background:#fff;border:1px solid #B5C8DD;border-left:4px solid #0067AA;border-radius:16px;margin-bottom:10px;overflow:hidden;box-shadow:0 1px 3px rgba(15,23,42,.05)}
 .th{display:flex;width:100%;align-items:center;gap:12px;border:0;background:#fff;padding:11px 14px;cursor:pointer;color:var(--tx)}
@@ -159,7 +163,7 @@ main{max-width:640px;margin:0 auto;padding:14px 12px 10px}
 <header><div class="hin"><img id="logo" title="Kommende Tage" src="https://i.ibb.co/kVvQQdS3/logo.jpg" alt="" onerror="this.style.display='none'"><div style="min-width:0"><div class="ht">Pneumatisch</div><div class="hd" id="hd"></div></div><div class="kp" id="hs"></div></div></header>
 <main id="app"></main>
 <script>
-var DATA = {"mode":"gesamt","datum":"gesamt","stand":"24.11.2026 11:00","karten":[],"tage":[{"datum":"2026-11-25","tag":"Mittwoch, 25. November","kurz":"MI 25.11.","karten":[{"p":"22","start":"13:00","ende":"","team":"Mike","kunde":"BP (Goldbeck Rhomberg)","kst":"CL0135.901.03","tel":"076 577 54 36","bst":"Hauptstrasse 100, 5212 Lupfig","f":[{"z":"13:00","o":"Tank 4-6","w":"Tägi","m":"Sand 0-2","m3":"70","ca":"ca.","h":"Hinterfüllen Tankbauwerk – Tank einsanden","a3":"ja"}],"a":[],"n":["! Strengste Sicherheitsvorschriften: Helm, Leuchtkleider, Schutzbrille immer auf, Sicherheitsschuhe, immer mit Handschuhen arbeiten","! Immer An- und Abmelden beim Drehkreuz und ID/Ausländerausweis dabei haben","! Absolutes Rauchverbot, keine Ohrstöpsel und immer den Anweisungen folgen","! Tanks nur bis zur Hälfte mit Sand füllen, dann wird mit Wasser geschwemmt, dann wieder mit Sand"]},{"p":"45","start":"07:30","ende":"","team":"Bruno+Daniel+Marin","kunde":"Walo Bertschinger AG – Mike","kst":"1002160000","tel":"079 767 92 36","bst":"Rainweg 16A, 8810 Horgen","f":[{"z":"07:30","o":"Schulhaus Siedlig","w":"Toggi","m":"Sicker","m3":"15","ca":"ca.","h":"Fläche 120 mL","a3":""}],"a":[],"n":[]},{"p":"61","start":"07:30","ende":"","team":"Francisco+Marcelo+Pedro","kunde":"BP (Goldbeck Rhomberg – Sebastian)","kst":"CH0285","tel":"079 524 47 42 Sebastian","bst":"GETEC, Schaffhauserstrasse 101, 4332 Stein","f":[{"z":"07:30","o":"1. Etappe","w":"Agir","m":"Z-Sub","m3":"180","ca":"","h":"2250 / 8 Begrünung","a3":""},{"z":"16:00","o":"1. Etappe","w":"Agir","m":"8-16","m3":"12.5","ca":"","h":"250 / 5 Kiesstreifen","a3":""}],"a":[{"z":"","t":"Kieskörbe + Kiesrahmen montieren, Solar UK (inkl.)"},{"z":"","t":"Kies bestellt 15 m3, Rest retour – LS ändern"},{"z":"","t":"Anschl. Feinverteilung und Waschen"}],"n":["Vlies verlegt Dachdecker (wurde von uns geliefert am 16.10.2026)"]},{"p":"66","start":"08:15","ende":"","team":"Franco+Samuel+Tiago","kunde":"BP (Hoppler AG)","kst":"","tel":"","bst":"Zelgstrasse 57, 8134 Adliswil","f":[{"z":"08:15","o":"","w":"Hastag","m":"8-16","m3":"21","ca":"","h":"Tank verfüllen","a3":""}],"a":[],"n":["Code: 2020 oder 2323"]},{"p":"66","start":"11:00","ende":"","team":"Franco+Samuel+Tiago","kunde":"BP (Liechti AG Tief- und Gartenbau)","kst":"","tel":"079 669 35 44","bst":"Gsteigstrasse 1, 8703 Erlenbach","f":[{"z":"11:00","o":"","w":"Hastag","m":"8-16","m3":"10","ca":"","h":"Graben füllen 80 mL","a3":""}],"a":[],"n":["! Wichtig – Strasse muss frei bleiben","! Schläuche nicht durch Garage"]}]}]};
+var DATA = {"mode":"gesamt","datum":"gesamt","stand":"24.11.2026 15:17","karten":[],"tage":[{"datum":"2026-11-25","tag":"Mittwoch, 25. November","kurz":"MI 25.11.","karten":[{"p":"22","start":"13:00","ende":"","team":"Mike","kunde":"BP (Goldbeck Rhomberg)","kst":"CL0135.901.03","tel":"076 577 54 36","bst":"Hauptstrasse 100, 5212 Lupfig","f":[{"z":"13:00","o":"Tank 4-6","w":"Tägi","m":"Sand 0-2","m3":"70","ca":"ca.","h":"Hinterfüllen Tankbauwerk – Tank einsanden","a3":""}],"a":[],"n":["! Strengste Sicherheitsvorschriften: Helm, Leuchtkleider, Schutzbrille immer auf, Sicherheitsschuhe, immer mit Handschuhen arbeiten","! Immer An- und Abmelden beim Drehkreuz und ID/Ausländerausweis dabei haben","! Absolutes Rauchverbot, keine Ohrstöpsel und immer den Anweisungen folgen","! Tanks nur bis zur Hälfte mit Sand füllen, dann wird mit Wasser geschwemmt, dann wieder mit Sand"]},{"p":"45","start":"07:30","ende":"","team":"Bruno+Daniel+Marin","kunde":"Walo Bertschinger AG – Mike","kst":"1002160000","tel":"079 767 92 36","bst":"Rainweg 16A, 8810 Horgen","f":[{"z":"07:30","o":"Schulhaus Siedlig","w":"Toggi","m":"Sicker","m3":"15","ca":"ca.","h":"Fläche 120 mL","a3":""}],"a":[],"n":[]},{"p":"61","start":"07:30","ende":"","team":"Francisco+Marcelo+Pedro","kunde":"BP (Goldbeck Rhomberg – Sebastian)","kst":"CH0285","tel":"079 524 47 42 Sebastian","bst":"GETEC, Schaffhauserstrasse 101, 4332 Stein","f":[{"z":"07:30","o":"1. Etappe","w":"Agir","m":"Z-Sub","m3":"180","ca":"","h":"2250 / 8 Begrünung","a3":""},{"z":"16:00","o":"1. Etappe","w":"Agir","m":"8-16","m3":"12.5","ca":"","h":"250 / 5 Kiesstreifen","a3":""}],"a":[{"z":"","t":"Kieskörbe + Kiesrahmen montieren, Solar UK (inkl.)"},{"z":"","t":"Kies bestellt 15 m3, Rest retour – LS ändern"},{"z":"","t":"Anschl. Feinverteilung und Waschen"}],"n":["Vlies verlegt Dachdecker (wurde von uns geliefert am 16.10.2026)"]},{"p":"66","start":"08:15","ende":"","team":"Franco+Samuel+Tiago","kunde":"BP (Hoppler AG)","kst":"","tel":"","bst":"Zelgstrasse 57, 8134 Adliswil","f":[{"z":"08:15","o":"","w":"Hastag","m":"8-16","m3":"21","ca":"","h":"Tank verfüllen","a3":""}],"a":[],"n":["Code: 2020 oder 2323"]},{"p":"66","start":"11:00","ende":"","team":"Franco+Samuel+Tiago","kunde":"BP (Liechti AG Tief- und Gartenbau)","kst":"","tel":"079 669 35 44","bst":"Gsteigstrasse 1, 8703 Erlenbach","f":[{"z":"11:00","o":"","w":"Hastag","m":"8-16","m3":"10","ca":"","h":"Graben füllen 80 mL","a3":""}],"a":[],"n":["! Wichtig – Strasse muss frei bleiben","! Schläuche nicht durch Garage"]}]}]};
 (function(){
   var D = DATA, KEY = 'dispo|' + D.datum + '|';
   function esc(s){ return String(s == null ? '' : s).replace(/[&<>"]/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
@@ -174,24 +178,30 @@ var DATA = {"mode":"gesamt","datum":"gesamt","stand":"24.11.2026 11:00","karten"
   function tels(t){ return String(t || '').split(/[\/;,]/).map(function(p){ p = p.trim(); var n = p.replace(/[^0-9+]/g, ''); var nm = p.replace(/[0-9+\s]/g, ''); return n.length > 5 ? '<a class="act" href="tel:' + n + '">' + IC.tel + ' ' + esc(nm ? p.replace(/[0-9+]/g, '').trim() : p) + '</a>' : ''; }).join(''); }
 
   var WEB = 'https://a3beton55-maker.github.io/pneumatisch/';
+  var TR = /\.translate\.goog$/.test(location.hostname);
+  function prox(u){ var m = u.match(/^https?:\/\/([^\/]+)(\/[^?#]*)/); if (!m) return u; return 'https://' + m[1].replace(/-/g, '--').replace(/\./g, '-') + '.translate.goog' + m[2] + '?_x_tr_sl=de&_x_tr_tl=pt&_x_tr_hl=pt'; }
+  function hier(){ if (TR) return WEB + location.pathname.replace(/^\/pneumatisch\//, ''); return /github\.io$/.test(location.hostname) ? location.href.split(/[?#]/)[0] : WEB; }
+  function go(path){ var u = WEB + path; return TR ? prox(u) : u; }
+  function lang(){ return '<span class="lng notranslate" translate="no">' + (TR ? '<a href="' + hier() + '">DE</a><b>PT</b>' : '<b>DE</b><a href="' + prox(hier()) + '">PT</a>') + '</span>'; }
+  window.openArch = function(){ var d = document.getElementById('arch').value; if (!d) { alert('Bitte Datum wählen'); return; } location.href = go('archiv/' + d + '.html'); };
   var lg = document.getElementById('logo');
   if (lg) { lg.style.cursor = 'pointer'; lg.onclick = function(){
-    if (D.mode === 'gesamt') { location.href = WEB; return; }
+    if (D.mode === 'gesamt') { location.href = go(''); return; }
     var pw = prompt('Passwort für die kommenden Tage:');
-    if (pw === '55') location.href = WEB + 'gesamt.html'; else if (pw !== null) alert('Falsches Passwort.');
+    if (pw === '55') location.href = go('gesamt.html'); else if (pw !== null) alert('Falsches Passwort.');
   }; }
   if (D.mode === 'gesamt') { gesamt(); return; }
   function m3of(c){ var x = 0; (c.f || []).forEach(function(f){ x += num(f.m3); }); return x; }
   function grow(c, datum){
     var m = m3of(c);
-    return '<div class="gr2"><span class="time">' + esc(c.start || '–') + '</span><span class="gm"><span class="g1"><b>' + esc(c.kunde || c.bst) + '</b>' + (c.p ? '<span class="mp2">P' + esc(c.p) + '</span>' : '') + (datum ? '<span class="dt2">' + esc(datum) + '</span>' : '') + '</span>' +
-      '<span class="g2">' + esc([ort(c.bst), c.team].filter(Boolean).join(' · ')) + '</span></span><span class="gm3">' + (m ? fmt(m) : '–') + '<small>m³</small></span></div>';
+    return '<div class="gr2"><span class="time">' + esc(c.start || '–') + '</span><span class="gm"><span class="g1"><b class="notranslate" translate="no">' + esc(c.kunde || c.bst) + '</b>' + (c.p ? '<span class="mp2">P' + esc(c.p) + '</span>' : '') + (datum ? '<span class="dt2">' + esc(datum) + '</span>' : '') + '</span>' +
+      '<span class="g2 notranslate" translate="no">' + esc([ort(c.bst), c.team].filter(Boolean).join(' · ')) + '</span></span><span class="gm3">' + (m ? fmt(m) : '–') + '<small>m³</small></span></div>';
   }
   function gesamt(){
     var all = [], sum = 0;
     (D.tage || []).forEach(function(t){ t.karten.forEach(function(c){ c._t = t; all.push(c); sum += m3of(c); }); });
     document.getElementById('hd').textContent = 'Kommende Tage · nächste 14 Tage';
-    document.getElementById('hs').innerHTML = '<a class="act" href="' + WEB + '">Heute</a>';
+    document.getElementById('hs').innerHTML = '<a class="act" href="' + go('') + '">Heute</a>' + lang();
     var h = '<div class="kpis"><div class="kpi"><b>' + all.length + '</b><span>Baustellen</span></div><div class="kpi"><b>' + fmt(sum) + '</b><span>m³ geplant</span></div></div>';
     var top = all.filter(function(c){ return m3of(c) > 0; }).sort(function(a, b){ return m3of(b) - m3of(a); }).slice(0, 5);
     if (top.length) h += '<div class="sec">Top 5 · grösste Mengen</div><div class="gl">' + top.map(function(c){ return grow(c, c._t.kurz); }).join('') + '</div>';
@@ -225,7 +235,7 @@ var DATA = {"mode":"gesamt","datum":"gesamt","stand":"24.11.2026 11:00","karten"
   if (sel && !(sel in tmap)) sel = '';
 
   document.getElementById('hd').textContent = D.tag || D.datum;
-  document.getElementById('hs').innerHTML = '<span>' + cards.length + ' Baustellen</span>';
+  document.getElementById('hs').innerHTML = '<span>' + cards.length + ' Baustellen</span>' + lang();
 
   function item(k, z, main, sub, light){
     var ok = ld(k) === '1';
@@ -236,7 +246,7 @@ var DATA = {"mode":"gesamt","datum":"gesamt","stand":"24.11.2026 11:00","karten"
     var CK = KEY + hash(c.bst + '|' + c.p + '|' + c.start) + '|';
     var keys = [], ev = [], idx = 0;
     c.f.forEach(function(f){ ev.push({z: f.z, o: 0, i: idx++, k: CK + hash('f|' + JSON.stringify(f)),
-      main: esc([f.w, f.m].filter(Boolean).join(' ')) + (f.m3 ? ' · ' + esc(f.m3) + ' m³' : '') + (f.ca ? '<span class="tg">' + esc(f.ca) + '</span>' : '') + (f.o ? '<span class="ob">' + esc(f.o) + '</span>' : ''),
+      main: '<span class="notranslate" translate="no">' + esc([f.w, f.m].filter(Boolean).join(' ')) + (f.m3 ? ' · ' + esc(f.m3) + ' m³' : '') + '</span>' + (f.ca ? '<span class="tg">' + esc(f.ca) + '</span>' : '') + (f.o ? '<span class="ob">' + esc(f.o) + '</span>' : ''),
       sub: esc(f.h), a3: !!f.a3, mat: true, ob: String(f.o || '').trim()}); });
     c.a.forEach(function(a){ ev.push({z: a.z, o: 1, i: idx++, k: CK + hash('a|' + JSON.stringify(a)), main: esc(a.t), sub: '', a3: false, mat: false, ob: ''}); });
     ev.sort(function(a, b){ var x = mins(a.z), y = mins(b.z);
@@ -259,8 +269,8 @@ var DATA = {"mode":"gesamt","datum":"gesamt","stand":"24.11.2026 11:00","karten"
     var all = keys.length > 0 && done === keys.length;
     var w = c.n.filter(function(t){ return t.charAt(0) === '!'; }), n = c.n.filter(function(t){ return t.charAt(0) !== '!'; });
     var h = '<div class="card' + (all ? ' done' : '') + '"><div class="c1"><span class="time">' + esc(c.start || '–') + (c.ende ? '–' + esc(c.ende) : '') + '</span>';
-    h += '<span class="kd">' + esc(c.kunde || c.bst) + '</span></div>';
-    h += '<div class="c2"><span class="ad">' + esc(c.bst) + '</span>' + (c.bst ? '<a class="act" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(c.bst) + '">' + IC.pin + ' Route</a>' : '') + tels(c.tel) + '</div>';
+    h += '<span class="kd notranslate" translate="no">' + esc(c.kunde || c.bst) + '</span></div>';
+    h += '<div class="c2"><span class="ad notranslate" translate="no">' + esc(c.bst) + '</span>' + (c.bst ? '<a class="act" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(c.bst) + '">' + IC.pin + ' Route</a>' : '') + tels(c.tel) + '</div>';
     if (w.length) h += '<div class="warn">' + w.map(function(t){ return '<div>' + IC.al + ' ' + esc(t.slice(1).trim()) + '</div>'; }).join('') + '</div>';
     if (n.length) h += '<div class="hint">' + n.map(function(t){ return esc(t); }).join(' · ') + '</div>';
     h += body;
@@ -295,15 +305,15 @@ var DATA = {"mode":"gesamt","datum":"gesamt","stand":"24.11.2026 11:00","karten"
       var cs = t.cs.map(card);
       var d = 0, n = 0; cs.forEach(function(x){ d += x.done; n += x.n; });
       var op = !!auf[t.id], fertig = n && d === n;
-      h += '<section class="team' + (op ? ' op' : '') + '"><button class="th" data-t="' + esc(t.id) + '"><span class="pp">P' + esc(t.p) + '</span><span class="tt"><div class="nm">' + esc(t.n.join(' · ') || '–') + '</div>' + (t.hint.length ? '<div class="hns">' + t.hint.map(function(x){ return '<span class="hn">' + esc(x) + '</span>'; }).join('') + '</div>' : '');
-      h += '<div class="or">' + t.cs.map(function(c){ return '<b>' + esc(c.start || '') + '</b>' + esc(ort(c.bst)); }).join(' &nbsp;·&nbsp; ') + '</div>';
+      h += '<section class="team' + (op ? ' op' : '') + '"><button class="th" data-t="' + esc(t.id) + '"><span class="pp">P' + esc(t.p) + '</span><span class="tt"><div class="nm notranslate" translate="no">' + esc(t.n.join(' · ') || '–') + '</div>' + (t.hint.length ? '<div class="hns">' + t.hint.map(function(x){ return '<span class="hn">' + esc(x) + '</span>'; }).join('') + '</div>' : '');
+      h += '<div class="or">' + t.cs.map(function(c){ return '<b>' + esc(c.start || '') + '</b><span class="notranslate" translate="no">' + esc(ort(c.bst)) + '</span>'; }).join(' &nbsp;·&nbsp; ') + '</div>';
       h += '<div class="st' + (fertig ? ' ok' : '') + '">' + (n ? (fertig ? '✓ alles erledigt' : d + ' von ' + n + ' erledigt') : '') + '</div>';
       if (n) h += '<div class="tb"><i style="width:' + Math.round(d / n * 100) + '%"></i></div>';
       h += '</span><span class="chev">' + IC.ch + '</span></button>';
       var ld = (D.laden || []).filter(function(l){ return String(l.p) === String(t.p); });
       h += '<div class="list">' + cs.map(function(x){ return x.h; }).join('') + (ld.length ? '<div class="lbox"><b>Für morgen laden</b>' + ld.map(function(l){ return '<div>' + esc(l.t) + '</div>'; }).join('') + '</div>' : '') + '</div></section>';
     });
-    if (!open) h += '<div class="arc"><span>Archiv</span><input type="date" id="arch"><button onclick="var d=document.getElementById(\'arch\').value;if(d)location.href=\'' + WEB + 'archiv/\'+d+\'.html\';else alert(\'Bitte Datum wählen\')">Öffnen</button></div>';
+    if (!open) h += '<div class="arc"><span>Archiv</span><input type="date" id="arch"><button onclick="openArch()">Öffnen</button></div>';
     document.getElementById('app').innerHTML = h;
   }
 
